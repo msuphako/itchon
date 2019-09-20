@@ -6,9 +6,6 @@ include ("connect.php");
 include("header.php");
 $sql = "SELECT * FROM products ";
 $result = $conn->query($sql);
-$sql5 = "SELECT count(id)as gg FROM products ";
-$cound1 = $conn->query($sql5);
-$countid = $cound1->fetch_assoc();
 ?>
 
 <div class="content-wrapper">

@@ -1,12 +1,7 @@
 
 <?php include('menu.php');
  include('connect.php');
-$sql5 = "SELECT count(id)as gg FROM products ";
-$re = $conn->query($sql5);
-$countid = $re->fetch_assoc();
-$sql ="SELECT COUNT(brand)as type FROM `products` WHERE brand='33'";
-$count1 = $conn->query($sql);
-$count_type1 = $count1->fetch_assoc();
+
 ?>
 
 
